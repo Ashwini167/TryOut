@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="./JavaScriptArrays.js"></script>
+    </head>
+    <body>
+        <h1> <p><b>Topic 1 (JavaScript Strings)</b></p> </h1>
+        <div>
+            <p><b>Assignment 1: Write a JavaScript program to remove duplicate items from String type array (ignore case sensitivity).</b></p>
+            <label>The sample array used is Apple, Banana, Mango, Apple, Orange, Grapes, Mango</label> <br/><br/>            
+            <button onclick="uniqueArray();">Remove duplicates</button>
+            <p id="answer1label">Array with unique values: </p>
+            <p id="answer1"></p>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 2: Write a JavaScript function to find the longest common starting substring in an array of strings.</b></p>
+            <label for="assignment2a">Enter a string: </label>
+            <input type="text" id="assignment2a"/><br />
+            <label for="assignment2b">Enter the number of characters you want to extract: </label>
+            <input type="text" id="assignment2b"/><br />
+            <button onclick="extractChars(document.getElementById('assignment2a').value, document.getElementById('assignment2b').value);">Click here for the answer</button>
+            <p id="answer2label">Extracted part of the string is: </p>
+            <p id="answer2"></p>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 3: Write a JavaScript function to get nth largest element from an unsorted array.</b></p>
+            <label for="assignment3">Enter a string that is a combination of upper and lower case characters: </label>
+            <input type="text" id="assignment3"/><br />
+            <button onclick="alterCase(document.getElementById('assignment3').value);">Click here for the answer</button>
+            <p id="answer3label">Altered String is: </p>
+            <p id="answer3"></p>
+        </div>
+    </body>
+</html>

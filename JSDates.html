@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="./JavaScriptDates.js"></script>
+    </head>
+    <body>
+        <h1> <p><b>Topic 4 (JavaScript Dates)</b></p> </h1>
+        <div>
+            <p><b>Assignment 1: Write a JavaScript function to test whether a date is a weekend or not.</b></p>
+            <label for="assignment1">Enter a date: </label>
+            <input type="date" id="assignment1"/> <br /> <br />
+            <button onclick="isWeekend(document.getElementById('assignment1').value);">Is it a weekend?</button>
+            <p id="answer1"></p>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 2: Write a JavaScript function to count the number of days passed since beginning of the year.</b></p>
+            <label>Want to know the number of days passed since beginning of the year?</label> <br/><br/>
+            <button onclick="calculateLapsedDays();">Click here</button>
+            <p id="answer2"></p>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 3: Write a JavaScript function to get a full textual representation of the day of the week (Sunday
+                    through Saturday)</b></p>
+            <label for="assignment3">Enter a date: </label>
+            <input type="date" id="assignment3"/><br /><br />
+            <button onclick="findDay(document.getElementById('assignment3').value);">Find out which day it is</button>
+            <p id="answer3"></p>
+        </div>
+    </body>
+</html>

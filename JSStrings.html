@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="./JavaScriptStrings.js"></script>
+    </head>
+    <body>
+        <h1> <p><b>Topic 1 (JavaScript Strings)</b></p> </h1>
+        <div>
+            <p><b>Assignment 1: Write a JavaScript function to split a string and convert it into an array of words.</b></p>
+            <label for="assignment1">Enter a sentence: </label>
+            <input type="text" id="assignment1"/> <br />
+            <button onclick="splitString(document.getElementById('assignment1').value);">Click here for the answer</button>
+            <p id="answer1label">Split words in array format: </p>
+            <p id="answer1"></p>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 2: Write a JavaScript function to extract a specified number of characters from a string.</b></p>
+            <label for="assignment2a">Enter a string: </label>
+            <input type="text" id="assignment2a"/><br />
+            <label for="assignment2b">Enter the number of characters you want to extract: </label>
+            <input type="text" id="assignment2b"/><br />
+            <button onclick="extractChars(document.getElementById('assignment2a').value, document.getElementById('assignment2b').value);">Click here for the answer</button>
+            <p id="answer2label">Extracted part of the string is: </p>
+            <p id="answer2"></p>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 3: Write a JavaScript function that takes a string which has lower and upper case letters as a
+                    parameter and converts upper case letters to lower case, and lower case letters to upper case.</b></p>
+            <label for="assignment3">Enter a string that is a combination of upper and lower case characters: </label>
+            <input type="text" id="assignment3"/><br />
+            <button onclick="alterCase(document.getElementById('assignment3').value);">Click here for the answer</button>
+            <p id="answer3label">Altered String is: </p>
+            <p id="answer3"></p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="./JavaScriptNumbers.js"></script>
+    </head>
+    <body>
+        <h1> <p><b>Topic 2 (JavaScript Numbers)</b></p> </h1>
+        <div>
+            <p><b>Assignment 1: Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.</b></p>
+            <label for="userChoice">Choose your option: </label> <br/>
+            <input type="radio" id="userChoice" name="userChoice" value="ctof" onclick="radioChange(this)">Centigrade to Fahrenheit
+            <input type="radio" id="userChoice" name="userChoice" value="ftoc" onclick="radioChange(this)">Fahrenheit to Centigrade
+            <br/><br/>
+            <label for="assignment1">Enter the temperature </label>
+            <label id="ctof">in Centigrade: </label>
+            <label id="ftoc">in Fahrenheit: </label>
+            <input type="text" id="assignment1"/> <br /> <br/>
+            <button onclick="tempConversion(document.getElementById('assignment1').value);">Click here for the answer</button> <br/>
+            <p id="answer1label">The converted value is: </p>
+            <p id="answer1"></p>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 2: Write a JavaScript program to compute the sum of the two given integers. If the two values are
+                    same, then returns triple their sum. </b></p>
+            <label for="assignment2a">Enter the first number: </label>
+            <input type="text" id="assignment2a"/><br />
+            <label for="assignment2b">Enter the second number: </label>
+            <input type="text" id="assignment2b"/><br />
+            <button onclick="sumNumbers(document.getElementById('assignment2a').value, document.getElementById('assignment2b').value);">Click here for the answer</button>
+            <p id="answer2label">The result is: </p>
+            <p id="answer2"></p>
+        </div>
+    </body>
+</html>

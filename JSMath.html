@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="./JavaScriptMath.js"></script>
+    </head>
+    <body>
+        <h1><p><b>Topic 3 (JavaScript Math)</b></p> </h1>
+        <div>
+            <p><b>Assignment 1: Write a JavaScript function to format a number up to specified decimal places.</b></p>
+            <label for="assignment1a">Enter a decimal number: </label>
+            <input type="text" id="assignment1a"/> <br />
+            <label for="assignment1b">Enter the number of digits to which it has to be formatted: </label>
+            <input type="text" id="assignment1b"/> <br />
+            <button onclick="limitDigits(document.getElementById('assignment1a').value, document.getElementById('assignment1b').value);">Click here for the answer</button>
+            <p id="answer1label">The result number is: </p>
+            <span id="answer1"></span>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 2: Write a JavaScript function to generate a random integer.</b></p>
+            <button onclick="generateNumber();">Generate a random number</button>
+            <p id="answer2label">The generated number is: </p>
+            <p id="answer2"></p>
+        </div>
+        <hr />
+        <div>
+            <p><b>Assignment 4: Write a JavaScript function to calculate the percentage (%) of a number.</b></p>
+            <label for="assignment3a">Enter the number: </label>
+            <input type="text" id="assignment3a"/><br />
+            <label for="assignment3b">What % of the above number do you want to find? </label>
+            <input type="text" id="assignment3b"/><br />
+            <button onclick="findPercent(document.getElementById('assignment3a').value, document.getElementById('assignment3b').value);">Click here for the answer</button>
+            <p id="answer3label">The value is: </p>
+            <p id="answer3"></p>
+        </div>
+    </body>
+</html>
